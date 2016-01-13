@@ -12,7 +12,7 @@ git clone <this-repo>
 Run RethinkDB via docker, use this folder as the mount and it must be the full path
 
 ```
-docker run --name rethinkdb -v /path/to/dir/ui5-playground-data -p 28000:8080 -p 28015 -p 29015 -d rethinkdb
+docker run --name rethinkdb -v /full/path/to/dir/ui5-playground-data:/data -p 28000:8080 -p 28015 -p 29015 -d rethinkdb
 ```
 
 Once running you can see the console at 'localhost:28000' in a browser
