@@ -1,0 +1,37 @@
+2016-01-13T09:11:23.553543599 0.111114s notice: Recursively removing directory /data/rethinkdb_data/tmp
+2016-01-13T09:11:23.576756605 0.134332s notice: Initializing directory /data/rethinkdb_data
+2016-01-13T09:11:23.576982476 0.134552s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/data/rethinkdb_data' did not already exist or is empty.)
+2016-01-13T09:11:23.577042429 0.134611s notice: Running rethinkdb 2.2.2~0jessie (GCC 4.9.2)...
+2016-01-13T09:11:23.594827647 0.152405s notice: Running on Linux 4.3.3-2-ARCH x86_64
+2016-01-13T09:11:23.594985799 0.152555s notice: Loading data from directory /data/rethinkdb_data
+2016-01-13T09:11:23.928160729 0.485734s info: Automatically using cache size of 571 MB
+2016-01-13T09:11:23.957910021 0.515479s notice: Listening for intracluster connections on port 29015
+2016-01-13T09:11:23.961419542 0.518989s notice: Listening for client driver connections on port 28015
+2016-01-13T09:11:23.962328802 0.519898s notice: Listening for administrative HTTP connections on port 8080
+2016-01-13T09:11:23.977658976 0.535228s notice: Listening on addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%7
+2016-01-13T09:11:23.977675943 0.535245s notice: Server ready, "a73f919e4b53_dqm" 2b59a4ee-0631-48f7-b958-10b22a2073ce
+2016-01-13T09:13:09.831602346 106.389172s info: Table e18b69a6-42d1-4535-8966-2002a1477637: Added replica on this server.
+2016-01-13T09:13:11.624932086 108.182501s info: Table e18b69a6-42d1-4535-8966-2002a1477637: Starting a new Raft election for term 1.
+2016-01-13T09:13:11.706813800 108.264383s info: Table e18b69a6-42d1-4535-8966-2002a1477637: This server is Raft leader for term 1. Latest log index is 0.
+2016-01-13T11:41:00.528626002 8977.086199s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2016-01-13T11:41:00.528773217 8977.086342s notice: Shutting down client connections...
+2016-01-13T11:41:00.528853951 8977.086423s notice: All client connections closed.
+2016-01-13T11:41:00.528857391 8977.086426s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-01-13T11:41:00.531398579 8977.088968s notice: Storage engine shut down.
+2016-01-13T11:41:24.709538908 0.283908s notice: Running rethinkdb 2.2.2~0jessie (GCC 4.9.2)...
+2016-01-13T11:41:24.713836912 0.288205s notice: Running on Linux 4.3.3-2-ARCH x86_64
+2016-01-13T11:41:24.713950762 0.288315s notice: Loading data from directory /data/rethinkdb_data
+2016-01-13T11:41:24.875317768 0.449684s info: Automatically using cache size of 100 MB
+2016-01-13T11:41:24.875544865 0.449909s warn: Cache size is very low and may impact performance.
+2016-01-13T11:41:24.918277803 0.492642s notice: Listening for intracluster connections on port 29015
+2016-01-13T11:41:24.949610595 0.523975s notice: Listening for client driver connections on port 28015
+2016-01-13T11:41:24.949946348 0.524311s notice: Listening for administrative HTTP connections on port 8080
+2016-01-13T11:41:24.971300958 0.545666s notice: Listening on addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%9
+2016-01-13T11:41:24.971317246 0.545681s notice: Server ready, "a73f919e4b53_dqm" 2b59a4ee-0631-48f7-b958-10b22a2073ce
+2016-01-13T11:41:26.608906797 2.183271s info: Table e18b69a6-42d1-4535-8966-2002a1477637: Starting a new Raft election for term 2.
+2016-01-13T11:41:26.690364984 2.264730s info: Table e18b69a6-42d1-4535-8966-2002a1477637: This server is Raft leader for term 2. Latest log index is 2.
+2016-01-13T13:19:44.917041627 5900.491409s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2016-01-13T13:19:44.917184156 5900.491549s notice: Shutting down client connections...
+2016-01-13T13:19:44.917335561 5900.491700s notice: All client connections closed.
+2016-01-13T13:19:44.917337779 5900.491702s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-01-13T13:19:44.936648367 5900.511013s notice: Storage engine shut down.
